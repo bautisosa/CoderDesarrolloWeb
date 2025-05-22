@@ -1,0 +1,77 @@
+/* Paleta de colores
+#B4B4B8
+#C7C8CC
+#E3E1D9
+#F2EFE5
+#5E686D
+ */
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+/*  font-family: "Special Gothic Condensed One", sans-serif; */
+
+body {
+    font-family: "Special Gothic Condensed One", sans-serif;
+}
+/* header */
+header{
+    background-color:#B4B4B8 ;
+}
+
+header img {
+    width: 60px;
+
+}
+
+header ul {
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+/* main de index */
+/* seccion banner */
+.banner {
+background-image: url(../medios/banner.jpeg);
+height: 670px;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+/* main */
+main {
+    background-color:#E3E1D9 ; 
+}
+main p{
+    color:#5E686D
+}
+main ul{
+    color: #5E686D
+}
+main label{
+    color:#5E686D
+}
+/* Títulos */
+h1, h2, h3 {
+    color:#5E686D;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #C7C8CC;
+    color: #5E686D;
+    text-align: center;
+}
+
+/* Imágenes */
+img{
+    width: 300px;
+}
+       
+/* Botones */
+input {
+    background-color:white;
+    color:#5E686D ;
+}
