@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <title>Iphonebellavista</title>
     <link rel="stylesheet" href="./css/stye.css">
 </head>
 <body>
-    <header>
-        <!--logo-->
-        <img src="./medios/Apple_logo_black.svg" alt="logo apple">
-        <!--menu de navegacion-->
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./page/tienda.html">Tienda</a></li>
-                <li><a href="./page/serviciotecnico.html">Servicio Tecnico</a></li>
-                <li><a href="./page/contacto.html">Contacto</a></li>
-                <li><a href="./page/nosotros.html">Nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav class="navbar navbar-expand-lg propia">
+    <div class="container-fluid">
+    <!--logo-->
+        <a class="navbar-brand" href="index.html"><img src="./medios/Apple_logo_black.svg" alt="logo apple"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+         <!--menu de navegacion-->
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="./page/serviciotecnico.html">Servicio Tecnico</a>
+                <a class="nav-link" href="./page/contacto.html">Contacto</a>
+                <a class="nav-link "href="./page/nosotros.html">Nosotros</a>
+            </div>
+          </div>
+        </div>
+     </nav>
+</header>
 
     <main>
         <section class="banner">
@@ -28,25 +36,29 @@
             <p>Vendemos iPhones nuevos y usados. También ofrecemos servicio técnico especializado.</p>
         </section>
 
-          <section>
+        <section>
             <h2>¿Por qué elegirnos?</h2>
             <ul>
-              <li>Atención personalizada</li>
-              <li>Repuestos originales</li>
-              <li>Garantía en todos nuestros servicios</li>
-              <li>Envíos a todo el país</li>
+                <li>Atención personalizada</li>
+                <li>Repuestos originales</li>
+                <li>Garantía en todos nuestros servicios</li>
+                <li>Envíos a todo el país</li>
             </ul>
-            </section>
+        </section>
       
-          <section>
+        <section>
             <h2>Mirá algunos de los modelos más populares:</h2>
-            <h3>iphone 13</h3>
-            <img src="./medios/iphone-13.jpeg" alt="foto del iphone 13">
-           
-            <h3>iphone 13 pro</h3>
-            <img src="./medios/iphone-13pro.png" alt="foto del iphone 13 pro">
-          </section>
-        
+            <article class="iconos"> 
+                <div>
+                    <h3>iphone 13</h3>
+                    <img src="./medios/iphone-13.jpeg" alt="foto del iphone 13">
+                </div>
+                <div>
+                    <h3>iphone 13 pro</h3>
+                    <img src="./medios/iphone-13pro.png" alt="foto del iphone 13 pro">
+                </div>             
+            </article>
+        </section>
     </main>
 
     <footer>
@@ -54,5 +66,7 @@
         <p>Dirección: Av. Peron 1845, Buenos Aires, Argentina</p>
         <p>Email: iphonebellavista@gmail.com</p>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
